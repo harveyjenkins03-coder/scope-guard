@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scope-guard"
+version = "0.1.0"
+description = "A fail-closed scope check for authorised security testing."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "Harvey Jenkins" }]
+dependencies = []
+
+[tool.setuptools]
+packages = ["scope_guard"]

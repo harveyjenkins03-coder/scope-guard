@@ -1,0 +1,14 @@
+{
+  "include": {
+    "domains": ["*.example.com"],
+    "hosts": ["api.example.net"],
+    "cidrs": ["192.0.2.0/24"],
+    "urls": ["https://app.example.net/api/"]
+  },
+  "exclude": {
+    "domains": ["admin.example.com"],
+    "cidrs": ["192.0.2.128/25"],
+    "urls": ["https://shop.example.com/checkout"]
+  },
+  "wildcard_includes_apex": false
+}
